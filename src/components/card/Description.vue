@@ -264,6 +264,7 @@ export default {
 	overflow-x: auto;
 
 	&::v-deep {
+		/* stylelint-disable-next-line no-invalid-position-at-import-rule */
 		@import './../../css/markdown';
 	}
 
